@@ -1,7 +1,7 @@
 # AutomatingJIRA
 Useful Scripts to Automate certain features of Atlassian Cloud
 
-## UserImport
+## Use cases
 
 Using REST API to bulk change users on Atlassian Cloud.
 
@@ -11,6 +11,8 @@ Using REST API to bulk change users on Atlassian Cloud.
 
 ## Usage
 * Bulk Deleting Users in User Management
+* Bulk Changed Claim domain email Address
+* Bulk Create Users and Add them to Groups on JIRA Cloud
 
 ## How to Use
 
