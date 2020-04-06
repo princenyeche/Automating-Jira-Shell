@@ -7,6 +7,7 @@ Using REST API to bulk change users on Atlassian Cloud.
 
 * Create Users & Create Groups in Bulk
 * Delete Users in Bulk
+* Bulk Change Managed Users Email Address
 
 ## Usage
 * Bulk Deleting Users in User Management
