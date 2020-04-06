@@ -6,6 +6,7 @@ Useful Scripts to Automate certain features of Atlassian Cloud
 Using REST API to bulk change users on Atlassian Cloud.
 
 * Create Users & Create Groups in Bulk
+* Delete Users in Bulk
 
 ## Usage
 * Bulk Deleting Users in User Management
