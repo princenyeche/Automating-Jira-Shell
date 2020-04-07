@@ -35,7 +35,7 @@ The file should include the accountID, emailAddress in the below format.
 You can remove the header of the csv file prior to beginning the script.
 
 ### Create User Import & Group Import
-The file should include the groupname, accountID, emailAddress in the below format.
+The CSV file should include the groupname, accountID, emailAddress in the below format.
 
 * This script doesn't do much validation
 * Ensure that the file is correct as below
@@ -46,3 +46,27 @@ The file should include the groupname, accountID, emailAddress in the below form
 
 Please remove the header of the csv file prior to beginning the script.
 
+### Bulk Change Managed Users Email
+The CSV file format should look like below after you've downloaded it. Depending on how many applications
+you have on your Cloud Instance, you can remove the other columns and just leave 6 columns as shown
+below.
+
+>| id  | name  | email  | active  |date   | LastLogin |
+>|---|---|---|---|---|---|
+>| 5559343a3813hag  |User 1   | user1@example.com  | Yes  | 2 Nov 2019  |Never logged in|
+
+* The email column should be the `new emailaddress` you want to change to
+  e.g. from user1@example.com to user1@yourdomain.com
+  so on the file you should place user1@yourdomain.com, because that's the email
+  you want to change to.
+  
+* Please remove the header of the csv file prior to beginning the script.
+
+### Bulk Delete Users
+The CSV file format should look like below.
+
+>| id  | name  | email  | active  |date   | LastLogin |
+>|---|---|---|---|---|---|
+>| 5559343a3813hag  |User 1   | user1@example.com  | Yes  | 2 Nov 2019  |Never logged in|
+
+Please remove the header of the csv file prior to beginning the script.
