@@ -22,7 +22,7 @@ Using REST API to bulk change users on Atlassian Cloud.
 
 3. Then to initiate the script run `./<filename>.sh`
 
-4. Do not forget to rename Instance name and insert **emailAddress** and **API-TOKEN** on the file prior to running it.
+4. you will require your **emailAddress** and **API-TOKEN** to authenticate your user. get one from https://id.atlassian.com
 
 ### Create a CSV file or Download the list from admin.atlassian.com
 The file should include the accountID, emailAddress in the below format.
