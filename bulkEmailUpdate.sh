@@ -14,7 +14,6 @@
 IFS=","
 OLDIFS=$IFS
 path=$(pwd)
-OLDIFS=$IFS
 fname="USERS"
 folder=$(mkdir -pv $fname)
 read -p "Enter your Atlassian Managed Account API token: " token
@@ -35,7 +34,6 @@ files=$path/$fname/*.[a-z][a-z][a-z]
     rm -f $x
     echo "Deleting log \"$x\"..."
   done
-  # we remove our credential and validators files
   rm -d $fname
   echo "removing  Directory \"$fname\""
 sleep $SLEEP
