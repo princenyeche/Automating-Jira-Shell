@@ -24,8 +24,14 @@ Using REST API to bulk change users on Atlassian Cloud.
 
 4. you will require your **emailAddress** and **API-TOKEN** to authenticate your user. get one from https://id.atlassian.com
 
-### Create a CSV file or Download the list from admin.atlassian.com
-The file should include the accountID, emailAddress in the below format.
+## Create a CSV file or Download the list from admin.atlassian.com
+
+### Create User Import
+There are two files that needs to be supplied. 
+1. The User file
+2. The Membership file
+
+The `User` file should include the accountID, emailAddress in the below format.
 
 >| id  | name  | email  | active  |date   | LastLogin |
 >|---|---|---|---|---|---|
@@ -34,15 +40,15 @@ The file should include the accountID, emailAddress in the below format.
 
 You can remove the header of the csv file prior to beginning the script.
 
-### Create User Import & Group Import
-The CSV file should include the groupname, accountID, emailAddress in the below format.
+### Create Group Import
+The `Group` CSV file should include the groupname, accountID, emailAddress in the below format.
 
 * This script doesn't do much validation
 * Ensure that the file is correct as below
 
->|groupname| id  | name  | email  | active  |date   | LastLogin |
->|---|---|---|---|---|---|---|
->|Fit group| 5559343a3813hag  |User 1   | user1@example.com  | Yes  | 2 Nov 2019  |Never logged in|
+>|groupname| id  | name  | email  | active  |date   | 
+>|---|---|---|---|---|---|
+>|Fit group| 5559343a3813hag  |User 1   | user1@example.com  | Yes  | 2 Nov 2019  |
 
 Please remove the header of the csv file prior to beginning the script.
 
