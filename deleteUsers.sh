@@ -78,7 +78,7 @@ do
     accountId=$id
     i=$emailAddress
     getUser=$(curl --silent -u "$email":"$apitoken" -X GET -H "Content-Type: application/json" "https://$ins_name.$url/rest/api/3/user?accountId=$accountId" > $fname/${accountId}.txt 2>&1)
-    VERIFY_USER=$(grep '"active.*' $fname/${accountId}.txt | cut -d ',' -f11)
+    VERIFY_USER=$(grep '"active.*' $fname/${accountId}.txt | cut -d ',' -f9)
     No_User=$(grep "errorMessages" $fname/${accountId}.txt | cut -d ',' -f2)
 # ----------------------------------------------
 # Start the  Conditions to check
