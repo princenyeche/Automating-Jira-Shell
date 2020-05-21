@@ -5,14 +5,16 @@ Useful Scripts to Automate certain features of Atlassian Cloud
 
 Using REST API to bulk change users on Atlassian Cloud.
 
-* Create Users & Create Groups in Bulk
+* Create Users & Create Groups in Bulk ( Perform a Jira Cloud to Jira Cloud User Import)
 * Delete Users in Bulk
 * Bulk Change Managed Users Email Address
+* Bulk Delete Jira Issues
 
 ## Usage
 * Bulk Deleting Users in User Management
 * Bulk Changed Claim domain email Address
 * Bulk Create Users and Add them to Groups on JIRA Cloud
+* Bulk delete Jira Issues including sub-task
 
 ## How to Use
 
@@ -76,3 +78,6 @@ The CSV file format should look like below.
 >| 5559343a3813hag  |User 1   | user1@example.com  | Yes  | 2 Nov 2019  |Never logged in|
 
 Please remove the header of the csv file prior to beginning the script.
+
+### Bulk Delete Jira Issues
+Ensure that the Project is visible to you; that means, you have **"BROWSE"** Project Permission and the **"DELETE"** Issues Permission of the Permission Scheme
