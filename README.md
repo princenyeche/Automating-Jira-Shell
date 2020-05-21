@@ -1,4 +1,4 @@
-# AutomatingJIRA
+# Automating Jira
 Useful Scripts to Automate certain features of Atlassian Cloud
 
 ## Use cases
